@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "72de6acf-6e84-447e-a26a-0286ca217b58": {
+      "ProjectGuid": "72de6acf-6e84-447e-a26a-0286ca217b58",
+      "DisplayName": "FORFOOD",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
