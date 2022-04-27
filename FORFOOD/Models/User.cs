@@ -7,7 +7,7 @@ namespace FORFOOD.Models
     {
         public User()
         {
-            Purchases = new HashSet<Purchases>();
+          
         }
 
         public int IdUser { get; set; }
@@ -18,6 +18,6 @@ namespace FORFOOD.Models
         public int Role { get; set; }
 
         public virtual Role RoleNavigation { get; set; } = null!;
-        public virtual ICollection<Purchases> Purchases { get; set; }
+      
     }
 }

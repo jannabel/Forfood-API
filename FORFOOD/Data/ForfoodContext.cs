@@ -55,16 +55,10 @@ namespace FORFOOD.Data
             {
                 entity.ToTable("Purchases", "FORFOOD");
 
-                entity.Property(e => e.Id).ValueGeneratedNever();
+                entity.Property(e => e.Id).UseIdentityAlwaysColumn();
 
                 entity.Property(e => e.Date).HasMaxLength(50);
 
-                entity.Property(e => e.Products).HasColumnType("json");
-
-                entity.HasOne(d => d.IdUserNavigation)
-                    .WithMany(p => p.Purchases)
-                    .HasForeignKey(d => d.IdUser)
-                    .HasConstraintName("Users_PK");
             });
 
             modelBuilder.Entity<Role>(entity =>
