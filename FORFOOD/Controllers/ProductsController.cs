@@ -30,9 +30,9 @@ namespace FORFOOD.Controllers
 
         //Este método actualiza un producto (Toma como referencia el ID)
         [HttpPut("Update")]
-        public async Task UpdateProducts(Products product)
+        public async Task<JsonResult> UpdateProducts(Products product)
         {
-            await productService.Update(product);
+           return Json(await productService.Update(product));
         }
 
         //Este método elimina un producto a partir de un ID
