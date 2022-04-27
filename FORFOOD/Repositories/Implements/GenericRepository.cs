@@ -8,7 +8,7 @@ namespace FORFOOD.Repositories.Implements
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
-        private readonly ForfoodContext _context = ForfoodContext.Create();
+        private readonly ForfoodContext _context;
 
         public GenericRepository(ForfoodContext _context)
         {

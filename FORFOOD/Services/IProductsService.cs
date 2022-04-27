@@ -7,7 +7,7 @@ using FORFOOD.Models;
 
 namespace FORFOOD.Services
 {
-    public interface IProductsService : IGenericService<Product>
+    public interface IProductsService : IGenericService<Products>
     {
     }
 }

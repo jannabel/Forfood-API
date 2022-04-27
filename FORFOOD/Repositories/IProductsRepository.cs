@@ -7,7 +7,7 @@ using FORFOOD.Models;
 
 namespace FORFOOD.Repositories.Implements
 {
-    public interface IProductsRepository : IGenericRepository<Product>
+    public interface IProductsRepository : IGenericRepository<Products>
     {
     }
 }

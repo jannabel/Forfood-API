@@ -10,7 +10,7 @@ using FORFOOD.Repositories.Implements;
 
 namespace FORFOOD.Services.Implements
 {
-    public class ProductsService : GenericService<Product>, IProductsRepository
+    public class ProductsService : GenericService<Products>, IProductsRepository
     {
         public ProductsService(IProductsRepository productsRepository) : base(productsRepository)
         {

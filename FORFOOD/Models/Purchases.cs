@@ -10,5 +10,7 @@ namespace FORFOOD.Models
         public string? Products { get; set; }
         public double? Total { get; set; }
         public int? IdUser { get; set; }
+
+        public virtual User? IdUserNavigation { get; set; }
     }
 }

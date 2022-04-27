@@ -8,7 +8,7 @@ using FORFOOD.Data;
 
 namespace FORFOOD.Repositories.Implements
 {
-    public class ProductsRepository : GenericRepository<Product>, IProductsRepository
+    public class ProductsRepository : GenericRepository<Products>, IProductsRepository
     {
         public ProductsRepository(ForfoodContext _context) : base(_context)
         {
