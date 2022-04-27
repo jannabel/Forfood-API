@@ -42,11 +42,5 @@ namespace FORFOOD.Controllers
         }
 
 
-        [HttpGet("GetByCode")]
-        public async Task GetByCode(Products product)
-        {
-            await productService.GetById(product.IdProduct);
-        }
-
     }
 }
